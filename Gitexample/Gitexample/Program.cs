@@ -14,6 +14,7 @@ namespace Gitexample
             // code added in branch
             //branch3 added code
             // branch added 
+            // brANCH MASTER
         }
     }
 }
