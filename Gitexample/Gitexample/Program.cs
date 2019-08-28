@@ -10,11 +10,13 @@ namespace Gitexample
     {
         static void Main(string[] args)
         {
-            //Code Added in the vs
-            // code added in branch
-            //branch3 added code
-            // branch added 
-            // brANCH MASTER
+            
+        }
+        public int add()
+        {
+            int a = 10, b = 20;
+            int c = a + b;
+            return c;
         }
     }
 }
