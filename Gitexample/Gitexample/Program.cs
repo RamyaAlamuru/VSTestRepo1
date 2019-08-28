@@ -10,7 +10,8 @@ namespace Gitexample
     {
         static void Main(string[] args)
         {
-            
+            Program c = new Program();
+            c.add();
         }
         public int add()
         {
