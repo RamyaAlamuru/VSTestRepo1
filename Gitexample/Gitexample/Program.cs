@@ -8,16 +8,16 @@ namespace Gitexample
 {
     class Program
     {
-        static void Main(string[] args)
+         static void Main(string[] args)
         {
             Program c = new Program();
-            c.add();
+
+            c.add(10,20);
         }
-        public int add()
+        public int add(int a,int b)
         {
-            int a = 10, b = 20;
-            int c = a + b;
-            return c;
+            Console.Writeline("Sum is:"+(a+b));
+
         }
     }
 }
