@@ -8,13 +8,14 @@ namespace Gitexample
 {
     class Program
     {
-        static void Main(string[] args)
+         static void Main(string[] args)
         {
-            //Code Added in the vs
-            // code added in branch
-            //branch3 added code
-            // branch added 
-            // brANCH MASTER
+            Program c = new Program();
+            c.add(10,20);
+        }
+        public int add(int a,int b)
+        {
+            Console.Writeline("Sum is:"+(a+b));
         }
     }
 }
